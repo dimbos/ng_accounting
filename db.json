@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "email": "dimboss@list.rt",
+      "password": "12345678",
+      "name": "Dima",
+      "id": 3
+    }
+  ],
+  "bill": {
+    "value": 110000,
+    "currency": "RUB"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Транспорт",
+      "capacity": 7000
+    },
+    {
+      "name": "Зарплата",
+      "capacity": 50000,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 10000,
+      "category": 2,
+      "date": "09.07.2019 20:49:02",
+      "description": "Подарили на ДР"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 2000,
+      "category": 1,
+      "date": "13.07.2019 19:49:02",
+      "description": "Купил бритву"
+    },
+    {
+      "type": "income",
+      "amount": 2000,
+      "category": 2,
+      "date": "17.06.2019 14:00:48",
+      "id": 3,
+      "description": "Шабашка"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.06.2019 14:00:58",
+      "id": 4,
+      "description": "Продукты"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.06.2019 14:01:58",
+      "id": 5,
+      "description": "Бензин"
+    },
+    {
+      "type": "income",
+      "amount": 40000,
+      "category": 4,
+      "date": "09.09.2019 13:06:07",
+      "description": "ЗП",
+      "id": 6
+    }
+  ]
+}

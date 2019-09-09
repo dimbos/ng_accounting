@@ -1,0 +1,19 @@
+<div class="title-block">
+    <h3 class="title pull-left">
+        Страница счета <span class="sparkline bar"></span>
+    </h3>
+    <div class="pull-right">
+      <button class="btn-sm btn btn-primary-outline" (click)="onRefresh()">
+        <i class="fa fa-refresh"></i>
+      </button>
+    </div>
+</div>
+<section class="section">
+  <div class="text text-center" *ngIf="!isLoaded">
+    <sky-loader></sky-loader>
+  </div>
+    <div class="row" *ngIf="isLoaded">
+        <sky-bill-card [bill]="bill" [currency]="currency" [currencyUSD]="currencyUSD"></sky-bill-card>
+        <sky-currency-card [currency]="currency" [currencyUSD]="currencyUSD"></sky-currency-card>
+    </div>
+</section>
